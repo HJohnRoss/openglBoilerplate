@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/code/renderer3d/build"
+			"value" : "d:/code/openglBoilerplate/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/renderer3d/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/code/openglBoilerplate/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -667,7 +667,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/code/renderer3d"
+			"value" : "D:/code/openglBoilerplate"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/renderer3d/build"
+			"value" : "D:/code/openglBoilerplate/build"
 		},
 		{
 			"name" : "renderer_IS_TOP_LEVEL",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/renderer3d"
+			"value" : "D:/code/openglBoilerplate"
 		}
 	],
 	"kind" : "cache",

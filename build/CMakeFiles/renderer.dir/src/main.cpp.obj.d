@@ -1,7 +1,8 @@
-CMakeFiles/renderer.dir/src/main.cpp.obj: D:\code\renderer3d\src\main.cpp \
-  D:\code\renderer3d\libs\glad\include\glad\glad.h \
-  D:\code\renderer3d\libs\glad\include\KHR\khrplatform.h \
-  D:\code\renderer3d\libs\glfw\include\GLFW\glfw3.h \
+CMakeFiles/renderer.dir/src/main.cpp.obj: \
+  D:\code\openglBoilerplate\src\main.cpp \
+  D:\code\openglBoilerplate\libs\glad\include\glad\glad.h \
+  D:\code\openglBoilerplate\libs\glad\include\KHR\khrplatform.h \
+  D:\code\openglBoilerplate\libs\glfw\include\GLFW\glfw3.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\stddef.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\__stddef_ptrdiff_t.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\__stddef_size_t.h \
@@ -17,7 +18,7 @@ CMakeFiles/renderer.dir/src/main.cpp.obj: D:\code\renderer3d\src\main.cpp \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\concurrencysal.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\vadefs.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h \
-  D:\code\renderer3d\libs\stb_image\include\stb_image.h \
+  D:\code\openglBoilerplate\libs\stb_image\include\stb_image.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\stdio.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstdio.h \
@@ -28,7 +29,7 @@ CMakeFiles/renderer.dir/src/main.cpp.obj: D:\code\renderer3d\src\main.cpp \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstdlib.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\limits.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h \
-  D:\code\renderer3d\src\headers\shaderClass.h \
+  D:\code\openglBoilerplate\src\headers\shaderClass.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals_core.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xkeycheck.h \
@@ -137,6 +138,6 @@ CMakeFiles/renderer.dir/src/main.cpp.obj: D:\code\renderer3d\src\main.cpp \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iterator \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sstream \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iostream \
-  D:\code\renderer3d\src\headers\VAO.h \
-  D:\code\renderer3d\src\headers\VBO.h \
-  D:\code\renderer3d\src\headers\EBO.h
+  D:\code\openglBoilerplate\src\headers\VAO.h \
+  D:\code\openglBoilerplate\src\headers\VBO.h \
+  D:\code\openglBoilerplate\src\headers\EBO.h

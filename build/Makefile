@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\renderer3d
+CMAKE_SOURCE_DIR = D:\code\openglBoilerplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\renderer3d\build
+CMAKE_BINARY_DIR = D:\code\openglBoilerplate\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\renderer3d\build\CMakeFiles D:\code\renderer3d\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\openglBoilerplate\build\CMakeFiles D:\code\openglBoilerplate\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\renderer3d\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\openglBoilerplate\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -226,6 +226,30 @@ src/EBO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\renderer.dir\build.make CMakeFiles/renderer.dir/src/EBO.cpp.s
 .PHONY : src/EBO.cpp.s
 
+src/Texture.obj: src/Texture.cpp.obj
+.PHONY : src/Texture.obj
+
+# target to build an object file
+src/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renderer.dir\build.make CMakeFiles/renderer.dir/src/Texture.cpp.obj
+.PHONY : src/Texture.cpp.obj
+
+src/Texture.i: src/Texture.cpp.i
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renderer.dir\build.make CMakeFiles/renderer.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renderer.dir\build.make CMakeFiles/renderer.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
 src/VAO.obj: src/VAO.cpp.obj
 .PHONY : src/VAO.obj
 
@@ -342,6 +366,9 @@ help:
 	@echo ... src/EBO.obj
 	@echo ... src/EBO.i
 	@echo ... src/EBO.s
+	@echo ... src/Texture.obj
+	@echo ... src/Texture.i
+	@echo ... src/Texture.s
 	@echo ... src/VAO.obj
 	@echo ... src/VAO.i
 	@echo ... src/VAO.s

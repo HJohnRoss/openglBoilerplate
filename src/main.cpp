@@ -6,6 +6,7 @@
 #include "headers/VAO.h"
 #include "headers/VBO.h"
 #include "headers/EBO.h"
+#include "headers/Texture.h"
 
 #include <iostream>
 
@@ -80,34 +81,10 @@ int main() {
 	glfwSwapBuffers(window);
 
 
-	int widthImg, heightImg, numColCh;
-	stbi_set_flip_vertically_on_load(true);
-	unsigned char* bytes = stbi_load("../assets/erm.png", &widthImg, &heightImg, &numColCh, 0);
-	GLuint texture;
-	glGenTextures(1, &texture);
-	glActiveTexture(GL_TEXTURE0);
-	glBindTexture(GL_TEXTURE_2D, texture);
 
+	Texture ermCat("../assets/erm.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGB, GL_UNSIGNED_BYTE);
+	ermCat.TexUinit(shaderProgram, "tex0", 0);
 
-
-	//								can either be GL_NEAREST or GL_LINEAR
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST_MIPMAP_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-
-	// float flatColor[] = {1.0f, 1.0f, 1.0f, 1.0f};
-	// glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, flatColor);
-
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, widthImg, heightImg, 0, GL_RGB, GL_UNSIGNED_BYTE, bytes);
-	glGenerateMipmap(GL_TEXTURE_2D);
-
-	stbi_image_free(bytes);
-	glBindTexture(GL_TEXTURE_2D, 0);
-	GLuint tex0Uni = glGetUniformLocation(shaderProgram.ID, "tex0");
-	shaderProgram.Activate();
-	glUniform1i(tex0Uni, 0);
 
 
 	GLuint uniID = glGetUniformLocation(shaderProgram.ID, "scale");
@@ -117,7 +94,7 @@ int main() {
 
 		shaderProgram.Activate();
 		glUniform1f(uniID, 0.5f);
-		glBindTexture(GL_TEXTURE_2D, texture);
+		ermCat.Bind();
 		VAO1.Bind();
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
@@ -129,7 +106,7 @@ int main() {
 	VBO1.Delete();
 	EBO1.Delete();
 	shaderProgram.Delete();
-	glDeleteTextures(1, &texture);
+	ermCat.Delete();
 
 	glfwDestroyWindow(window);
 	glfwTerminate();

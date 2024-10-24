@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/renderer3d
+# Install script for directory: D:/code/openglBoilerplate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/code/renderer3d/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/code/openglBoilerplate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

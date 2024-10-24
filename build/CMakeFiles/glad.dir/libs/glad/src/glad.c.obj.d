@@ -1,5 +1,5 @@
 CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: \
-  D:\code\renderer3d\libs\glad\src\glad.c \
+  D:\code\openglBoilerplate\libs\glad\src\glad.c \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\stdio.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h \
@@ -28,7 +28,7 @@ CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\errno.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_string.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstring.h \
-  D:\code\renderer3d\libs\glad\include\glad\glad.h \
-  D:\code\renderer3d\libs\glad\include\KHR\khrplatform.h \
+  D:\code\openglBoilerplate\libs\glad\include\glad\glad.h \
+  D:\code\openglBoilerplate\libs\glad\include\KHR\khrplatform.h \
   C:\Program\ Files\LLVM\lib\clang\18\include\stdint.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdint.h

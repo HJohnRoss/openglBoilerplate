@@ -1,6 +1,6 @@
 CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: \
-  D:\code\renderer3d\libs\stb_image\src\stb_image.cpp \
-  D:\code\renderer3d\libs\stb_image\src\..\include\stb_image.h \
+  D:\code\openglBoilerplate\libs\stb_image\src\stb_image.cpp \
+  D:\code\openglBoilerplate\libs\stb_image\src\..\include\stb_image.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\stdio.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\corecrt.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h \

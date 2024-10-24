@@ -11,6 +11,7 @@ set(SOURCES
 	src/VAO.cpp
 	src/VBO.cpp
 	src/ShaderClass.cpp
+	src/Texture.cpp
 	)
 
 

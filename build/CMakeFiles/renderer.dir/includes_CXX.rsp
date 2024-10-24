@@ -1,1 +1,1 @@
--ID:/code/renderer3d/libs/stb_image -ID:/code/renderer3d/libs/glad/include -ID:/code/renderer3d/libs/stb_image/include -isystem D:/code/renderer3d/libs/glfw/include
+-ID:/code/openglBoilerplate/libs/stb_image -ID:/code/openglBoilerplate/libs/glad/include -ID:/code/openglBoilerplate/libs/stb_image/include -isystem D:/code/openglBoilerplate/libs/glfw/include

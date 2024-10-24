@@ -43,21 +43,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-89ee2138f0388ca39db9.json",
+					"jsonFile" : "target-glad-Debug-65f53dc0a66754499e0f.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "renderer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-renderer-Debug-f7f3588458f9c4634747.json",
+					"jsonFile" : "target-renderer-Debug-70daa8c2c2fde93c925a.json",
 					"name" : "renderer",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "stb_image::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stb_image-Debug-d329858c8c533330c373.json",
+					"jsonFile" : "target-stb_image-Debug-038912c13f51850baa6f.json",
 					"name" : "stb_image",
 					"projectIndex" : 0
 				}
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/code/renderer3d/build",
-		"source" : "D:/code/renderer3d"
+		"build" : "D:/code/openglBoilerplate/build",
+		"source" : "D:/code/openglBoilerplate"
 	},
 	"version" : 
 	{

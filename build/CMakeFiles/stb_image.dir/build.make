@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\renderer3d
+CMAKE_SOURCE_DIR = D:\code\openglBoilerplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\renderer3d\build
+CMAKE_BINARY_DIR = D:\code\openglBoilerplate\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stb_image.dir/depend.make
@@ -70,10 +70,10 @@ include CMakeFiles/stb_image.dir/flags.make
 
 CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: CMakeFiles/stb_image.dir/flags.make
 CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: CMakeFiles/stb_image.dir/includes_CXX.rsp
-CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: D:/code/renderer3d/libs/stb_image/src/stb_image.cpp
+CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: D:/code/openglBoilerplate/libs/stb_image/src/stb_image.cpp
 CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj: CMakeFiles/stb_image.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj -MF CMakeFiles\stb_image.dir\libs\stb_image\src\stb_image.cpp.obj.d -o CMakeFiles\stb_image.dir\libs\stb_image\src\stb_image.cpp.obj -c D:\code\renderer3d\libs\stb_image\src\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj -MF CMakeFiles\stb_image.dir\libs\stb_image\src\stb_image.cpp.obj.d -o CMakeFiles\stb_image.dir\libs\stb_image\src\stb_image.cpp.obj -c D:\code\openglBoilerplate\libs\stb_image\src\stb_image.cpp
 
 CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.i"
@@ -93,7 +93,7 @@ stb_image_EXTERNAL_OBJECTS =
 stb_image.lib: CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj
 stb_image.lib: CMakeFiles/stb_image.dir/build.make
 stb_image.lib: CMakeFiles/stb_image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library stb_image.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library stb_image.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\stb_image.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\stb_image.dir\link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/stb_image.dir/clean:
 .PHONY : CMakeFiles/stb_image.dir/clean
 
 CMakeFiles/stb_image.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\renderer3d D:\code\renderer3d D:\code\renderer3d\build D:\code\renderer3d\build D:\code\renderer3d\build\CMakeFiles\stb_image.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\openglBoilerplate D:\code\openglBoilerplate D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build\CMakeFiles\stb_image.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/stb_image.dir/depend
 

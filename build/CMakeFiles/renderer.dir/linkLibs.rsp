@@ -1,1 +1,1 @@
-  -LD:/code/renderer3d/libs/stb_image  "D:/code/renderer3d/libs/glfw/lib-vc2022/glfw3.lib" glad.lib stb_image.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames 
+  -LD:/code/openglBoilerplate/libs/stb_image  "D:/code/openglBoilerplate/libs/glfw/lib-vc2022/glfw3.lib" glad.lib stb_image.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames 

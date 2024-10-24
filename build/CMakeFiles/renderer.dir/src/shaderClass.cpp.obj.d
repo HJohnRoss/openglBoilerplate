@@ -1,8 +1,8 @@
 CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: \
-  D:\code\renderer3d\src\shaderClass.cpp \
-  D:\code\renderer3d\src\headers\shaderClass.h \
-  D:\code\renderer3d\libs\glad\include\glad\glad.h \
-  D:\code\renderer3d\libs\glad\include\KHR\khrplatform.h \
+  D:\code\openglBoilerplate\src\shaderClass.cpp \
+  D:\code\openglBoilerplate\src\headers\shaderClass.h \
+  D:\code\openglBoilerplate\libs\glad\include\glad\glad.h \
+  D:\code\openglBoilerplate\libs\glad\include\KHR\khrplatform.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals_core.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h \

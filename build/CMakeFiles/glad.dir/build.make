@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\renderer3d
+CMAKE_SOURCE_DIR = D:\code\openglBoilerplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\renderer3d\build
+CMAKE_BINARY_DIR = D:\code\openglBoilerplate\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -70,10 +70,10 @@ include CMakeFiles/glad.dir/flags.make
 
 CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: CMakeFiles/glad.dir/includes_C.rsp
-CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: D:/code/renderer3d/libs/glad/src/glad.c
+CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: D:/code/openglBoilerplate/libs/glad/src/glad.c
 CMakeFiles/glad.dir/libs/glad/src/glad.c.obj: CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/libs/glad/src/glad.c.obj"
-	C:\PROGRA~1\LLVM\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/libs/glad/src/glad.c.obj -MF CMakeFiles\glad.dir\libs\glad\src\glad.c.obj.d -o CMakeFiles\glad.dir\libs\glad\src\glad.c.obj -c D:\code\renderer3d\libs\glad\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/libs/glad/src/glad.c.obj"
+	C:\PROGRA~1\LLVM\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/libs/glad/src/glad.c.obj -MF CMakeFiles\glad.dir\libs\glad\src\glad.c.obj.d -o CMakeFiles\glad.dir\libs\glad\src\glad.c.obj -c D:\code\openglBoilerplate\libs\glad\src\glad.c
 
 CMakeFiles/glad.dir/libs/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/libs/glad/src/glad.c.i"
@@ -93,7 +93,7 @@ glad_EXTERNAL_OBJECTS =
 glad.lib: CMakeFiles/glad.dir/libs/glad/src/glad.c.obj
 glad.lib: CMakeFiles/glad.dir/build.make
 glad.lib: CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library glad.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library glad.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\glad.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glad.dir\link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\renderer3d D:\code\renderer3d D:\code\renderer3d\build D:\code\renderer3d\build D:\code\renderer3d\build\CMakeFiles\glad.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\openglBoilerplate D:\code\openglBoilerplate D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build\CMakeFiles\glad.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/glad.dir/depend
 

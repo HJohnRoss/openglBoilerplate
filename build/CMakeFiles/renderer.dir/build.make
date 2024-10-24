@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\renderer3d
+CMAKE_SOURCE_DIR = D:\code\openglBoilerplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\renderer3d\build
+CMAKE_BINARY_DIR = D:\code\openglBoilerplate\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/renderer.dir/depend.make
@@ -70,10 +70,10 @@ include CMakeFiles/renderer.dir/flags.make
 
 CMakeFiles/renderer.dir/src/main.cpp.obj: CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/src/main.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
-CMakeFiles/renderer.dir/src/main.cpp.obj: D:/code/renderer3d/src/main.cpp
+CMakeFiles/renderer.dir/src/main.cpp.obj: D:/code/openglBoilerplate/src/main.cpp
 CMakeFiles/renderer.dir/src/main.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/renderer.dir/src/main.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/main.cpp.obj -MF CMakeFiles\renderer.dir\src\main.cpp.obj.d -o CMakeFiles\renderer.dir\src\main.cpp.obj -c D:\code\renderer3d\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/renderer.dir/src/main.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/main.cpp.obj -MF CMakeFiles\renderer.dir\src\main.cpp.obj.d -o CMakeFiles\renderer.dir\src\main.cpp.obj -c D:\code\openglBoilerplate\src\main.cpp
 
 CMakeFiles/renderer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/main.cpp.i"
@@ -85,10 +85,10 @@ CMakeFiles/renderer.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/renderer.dir/src/EBO.cpp.obj: CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/src/EBO.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
-CMakeFiles/renderer.dir/src/EBO.cpp.obj: D:/code/renderer3d/src/EBO.cpp
+CMakeFiles/renderer.dir/src/EBO.cpp.obj: D:/code/openglBoilerplate/src/EBO.cpp
 CMakeFiles/renderer.dir/src/EBO.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/renderer.dir/src/EBO.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/EBO.cpp.obj -MF CMakeFiles\renderer.dir\src\EBO.cpp.obj.d -o CMakeFiles\renderer.dir\src\EBO.cpp.obj -c D:\code\renderer3d\src\EBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/renderer.dir/src/EBO.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/EBO.cpp.obj -MF CMakeFiles\renderer.dir\src\EBO.cpp.obj.d -o CMakeFiles\renderer.dir\src\EBO.cpp.obj -c D:\code\openglBoilerplate\src\EBO.cpp
 
 CMakeFiles/renderer.dir/src/EBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/EBO.cpp.i"
@@ -100,10 +100,10 @@ CMakeFiles/renderer.dir/src/EBO.cpp.s: cmake_force
 
 CMakeFiles/renderer.dir/src/VAO.cpp.obj: CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/src/VAO.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
-CMakeFiles/renderer.dir/src/VAO.cpp.obj: D:/code/renderer3d/src/VAO.cpp
+CMakeFiles/renderer.dir/src/VAO.cpp.obj: D:/code/openglBoilerplate/src/VAO.cpp
 CMakeFiles/renderer.dir/src/VAO.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/renderer.dir/src/VAO.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/VAO.cpp.obj -MF CMakeFiles\renderer.dir\src\VAO.cpp.obj.d -o CMakeFiles\renderer.dir\src\VAO.cpp.obj -c D:\code\renderer3d\src\VAO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/renderer.dir/src/VAO.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/VAO.cpp.obj -MF CMakeFiles\renderer.dir\src\VAO.cpp.obj.d -o CMakeFiles\renderer.dir\src\VAO.cpp.obj -c D:\code\openglBoilerplate\src\VAO.cpp
 
 CMakeFiles/renderer.dir/src/VAO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/VAO.cpp.i"
@@ -115,10 +115,10 @@ CMakeFiles/renderer.dir/src/VAO.cpp.s: cmake_force
 
 CMakeFiles/renderer.dir/src/VBO.cpp.obj: CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/src/VBO.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
-CMakeFiles/renderer.dir/src/VBO.cpp.obj: D:/code/renderer3d/src/VBO.cpp
+CMakeFiles/renderer.dir/src/VBO.cpp.obj: D:/code/openglBoilerplate/src/VBO.cpp
 CMakeFiles/renderer.dir/src/VBO.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/renderer.dir/src/VBO.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/VBO.cpp.obj -MF CMakeFiles\renderer.dir\src\VBO.cpp.obj.d -o CMakeFiles\renderer.dir\src\VBO.cpp.obj -c D:\code\renderer3d\src\VBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/renderer.dir/src/VBO.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/VBO.cpp.obj -MF CMakeFiles\renderer.dir\src\VBO.cpp.obj.d -o CMakeFiles\renderer.dir\src\VBO.cpp.obj -c D:\code\openglBoilerplate\src\VBO.cpp
 
 CMakeFiles/renderer.dir/src/VBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/VBO.cpp.i"
@@ -130,10 +130,10 @@ CMakeFiles/renderer.dir/src/VBO.cpp.s: cmake_force
 
 CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
-CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: D:/code/renderer3d/src/shaderClass.cpp
+CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: D:/code/openglBoilerplate/src/shaderClass.cpp
 CMakeFiles/renderer.dir/src/shaderClass.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/renderer.dir/src/shaderClass.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/shaderClass.cpp.obj -MF CMakeFiles\renderer.dir\src\shaderClass.cpp.obj.d -o CMakeFiles\renderer.dir\src\shaderClass.cpp.obj -c D:\code\renderer3d\src\shaderClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/renderer.dir/src/shaderClass.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/shaderClass.cpp.obj -MF CMakeFiles\renderer.dir\src\shaderClass.cpp.obj.d -o CMakeFiles\renderer.dir\src\shaderClass.cpp.obj -c D:\code\openglBoilerplate\src\shaderClass.cpp
 
 CMakeFiles/renderer.dir/src/shaderClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/shaderClass.cpp.i"
@@ -143,13 +143,29 @@ CMakeFiles/renderer.dir/src/shaderClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/renderer.dir/src/shaderClass.cpp.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
+CMakeFiles/renderer.dir/src/Texture.cpp.obj: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/Texture.cpp.obj: CMakeFiles/renderer.dir/includes_CXX.rsp
+CMakeFiles/renderer.dir/src/Texture.cpp.obj: D:/code/openglBoilerplate/src/Texture.cpp
+CMakeFiles/renderer.dir/src/Texture.cpp.obj: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/renderer.dir/src/Texture.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/Texture.cpp.obj -MF CMakeFiles\renderer.dir\src\Texture.cpp.obj.d -o CMakeFiles\renderer.dir\src\Texture.cpp.obj -c D:\code\openglBoilerplate\src\Texture.cpp
+
+CMakeFiles/renderer.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/src/Texture.cpp.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/renderer.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/renderer.dir/src/Texture.cpp.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
 # Object files for target renderer
 renderer_OBJECTS = \
 "CMakeFiles/renderer.dir/src/main.cpp.obj" \
 "CMakeFiles/renderer.dir/src/EBO.cpp.obj" \
 "CMakeFiles/renderer.dir/src/VAO.cpp.obj" \
 "CMakeFiles/renderer.dir/src/VBO.cpp.obj" \
-"CMakeFiles/renderer.dir/src/shaderClass.cpp.obj"
+"CMakeFiles/renderer.dir/src/shaderClass.cpp.obj" \
+"CMakeFiles/renderer.dir/src/Texture.cpp.obj"
 
 # External object files for target renderer
 renderer_EXTERNAL_OBJECTS =
@@ -159,14 +175,15 @@ renderer.exe: CMakeFiles/renderer.dir/src/EBO.cpp.obj
 renderer.exe: CMakeFiles/renderer.dir/src/VAO.cpp.obj
 renderer.exe: CMakeFiles/renderer.dir/src/VBO.cpp.obj
 renderer.exe: CMakeFiles/renderer.dir/src/shaderClass.cpp.obj
+renderer.exe: CMakeFiles/renderer.dir/src/Texture.cpp.obj
 renderer.exe: CMakeFiles/renderer.dir/build.make
-renderer.exe: D:/code/renderer3d/libs/glfw/lib-vc2022/glfw3.lib
+renderer.exe: D:/code/openglBoilerplate/libs/glfw/lib-vc2022/glfw3.lib
 renderer.exe: glad.lib
 renderer.exe: stb_image.lib
 renderer.exe: CMakeFiles/renderer.dir/linkLibs.rsp
 renderer.exe: CMakeFiles/renderer.dir/objects1.rsp
 renderer.exe: CMakeFiles/renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\renderer3d\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable renderer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\openglBoilerplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable renderer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\renderer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,6 +195,6 @@ CMakeFiles/renderer.dir/clean:
 .PHONY : CMakeFiles/renderer.dir/clean
 
 CMakeFiles/renderer.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\renderer3d D:\code\renderer3d D:\code\renderer3d\build D:\code\renderer3d\build D:\code\renderer3d\build\CMakeFiles\renderer.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\openglBoilerplate D:\code\openglBoilerplate D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build D:\code\openglBoilerplate\build\CMakeFiles\renderer.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/renderer.dir/depend
 

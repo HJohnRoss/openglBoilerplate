@@ -139,8 +139,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/code/renderer3d/build",
-		"source" : "D:/code/renderer3d"
+		"build" : "D:/code/openglBoilerplate/build",
+		"source" : "D:/code/openglBoilerplate"
 	},
 	"version" : 
 	{

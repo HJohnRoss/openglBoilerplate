@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/src/EBO.cpp.obj"
   "CMakeFiles/renderer.dir/src/EBO.cpp.obj.d"
+  "CMakeFiles/renderer.dir/src/Texture.cpp.obj"
+  "CMakeFiles/renderer.dir/src/Texture.cpp.obj.d"
   "CMakeFiles/renderer.dir/src/VAO.cpp.obj"
   "CMakeFiles/renderer.dir/src/VAO.cpp.obj.d"
   "CMakeFiles/renderer.dir/src/VBO.cpp.obj"
