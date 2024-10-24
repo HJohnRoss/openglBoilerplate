@@ -1,0 +1,2 @@
+C:\PROGRA~1\LLVM\bin\llvm-ar.exe qc stb_image.lib CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj
+C:\PROGRA~1\LLVM\bin\LLVM-R~1.EXE stb_image.lib

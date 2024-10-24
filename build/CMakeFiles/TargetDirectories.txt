@@ -1,0 +1,5 @@
+D:/code/renderer3d/build/CMakeFiles/glad.dir
+D:/code/renderer3d/build/CMakeFiles/stb_image.dir
+D:/code/renderer3d/build/CMakeFiles/renderer.dir
+D:/code/renderer3d/build/CMakeFiles/edit_cache.dir
+D:/code/renderer3d/build/CMakeFiles/rebuild_cache.dir

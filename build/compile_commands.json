@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe  @CMakeFiles/glad.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\glad.dir\\libs\\glad\\src\\glad.c.obj -c D:\\code\\renderer3d\\libs\\glad\\src\\glad.c",
+  "file": "D:/code/renderer3d/libs/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/libs/glad/src/glad.c.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/stb_image.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\stb_image.dir\\libs\\stb_image\\src\\stb_image.cpp.obj -c D:\\code\\renderer3d\\libs\\stb_image\\src\\stb_image.cpp",
+  "file": "D:/code/renderer3d/libs/stb_image/src/stb_image.cpp",
+  "output": "CMakeFiles/stb_image.dir/libs/stb_image/src/stb_image.cpp.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/renderer.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\renderer.dir\\src\\main.cpp.obj -c D:\\code\\renderer3d\\src\\main.cpp",
+  "file": "D:/code/renderer3d/src/main.cpp",
+  "output": "CMakeFiles/renderer.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/renderer.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\renderer.dir\\src\\EBO.cpp.obj -c D:\\code\\renderer3d\\src\\EBO.cpp",
+  "file": "D:/code/renderer3d/src/EBO.cpp",
+  "output": "CMakeFiles/renderer.dir/src/EBO.cpp.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/renderer.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\renderer.dir\\src\\VAO.cpp.obj -c D:\\code\\renderer3d\\src\\VAO.cpp",
+  "file": "D:/code/renderer3d/src/VAO.cpp",
+  "output": "CMakeFiles/renderer.dir/src/VAO.cpp.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/renderer.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\renderer.dir\\src\\VBO.cpp.obj -c D:\\code\\renderer3d\\src\\VBO.cpp",
+  "file": "D:/code/renderer3d/src/VBO.cpp",
+  "output": "CMakeFiles/renderer.dir/src/VBO.cpp.obj"
+},
+{
+  "directory": "D:/code/renderer3d/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/renderer.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\renderer.dir\\src\\shaderClass.cpp.obj -c D:\\code\\renderer3d\\src\\shaderClass.cpp",
+  "file": "D:/code/renderer3d/src/shaderClass.cpp",
+  "output": "CMakeFiles/renderer.dir/src/shaderClass.cpp.obj"
+}
+]
